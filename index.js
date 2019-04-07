@@ -65,7 +65,7 @@ function placeOrder(cardNumber) {
     return  "Sorry, we don't have a credit card on file for you."
   }
   else if(isNaN(Number.parseInt(cardNumber)){
-    return  "Not a credit card number"
+    return  "Not a credit card number."
   }
   else{
     cart.length=0;
