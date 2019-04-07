@@ -64,6 +64,9 @@ function placeOrder(cardNumber) {
   if(!cardNumber){
     return  "Sorry, we don't have a credit card on file for you."
   }
+  else if(isNaN(Number.parseInt(cardNumber))){
+    return  "Not a Credit Card."
+  }
   else{
     var summation = total()
     cart.length=0
